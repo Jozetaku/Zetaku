@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zetaku Advanced Thai Therapeutic Massage | Interlaken</title>
+    <meta name="description" content="Zetaku Advanced Thai Therapeutic Massage in Interlaken, Switzerland. Deep tissue, wood therapy, hot stone, aromatherapy, sports recovery and couples treatments. Book instantly via WhatsApp.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&amp;display=swap');
-        
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap');
+
         body {
-            font-family: 'Inter', system_ui, sans-serif;
+            font-family: 'Inter', system-ui, sans-serif;
         }
-        
+
         .heading-serif {
             font-family: 'Playfair Display', Georgia, serif;
         }
@@ -20,7 +21,7 @@
         .zen-card {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        
+
         .zen-card:hover {
             transform: translateY(-6px);
             box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
@@ -30,19 +31,28 @@
             background: white;
             border: 1px solid #E5E0D5;
         }
+
+        .link-btn {
+            transition: all 0.3s ease;
+        }
+
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+        }
     </style>
 </head>
 <body class="bg-[#F5F0E6] text-[#1F2A1F]">
-    
+
     <!-- Hero Section -->
     <div class="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0 bg-[radial-gradient(#2C5F2D_0.6px,transparent_1px)] bg-[length:4px_4px] opacity-5"></div>
-        
+
         <div class="max-w-4xl mx-auto px-6 text-center relative z-10 pt-12">
             <div class="flex justify-center mb-6">
                 <div class="w-28 h-28 rounded-full overflow-hidden border-[6px] border-white shadow-2xl">
-                    <img src="profile.png" 
-                         alt="Joe Setharakul" 
+                    <img src="profile.png"
+                         alt="Joe Setharakul"
                          class="w-full h-full object-cover">
                 </div>
             </div>
@@ -56,14 +66,26 @@
             <p class="text-xl text-[#4A554A] mb-8">Interlaken, Switzerland</p>
 
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://your-wix-booking-link.com" 
-                   class="flex items-center justify-center gap-3 bg-[#2C5F2D] hover:bg-[#1F4A22] text-white px-10 py-4 rounded-2xl text-lg font-semibold shadow-xl">
-                    Book Your Session
+                <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20book%20a%20session"
+                   class="link-btn flex items-center justify-center gap-3 bg-[#2C5F2D] hover:bg-[#1F4A22] text-white px-10 py-4 rounded-2xl text-lg font-semibold shadow-xl">
+                    <i class="fab fa-whatsapp text-2xl"></i>
+                    <span>Book via WhatsApp</span>
                 </a>
-                <a href="#signature" 
-                   class="flex items-center justify-center gap-3 border-2 border-[#2C5F2D] text-[#2C5F2D] hover:bg-[#2C5F2D] hover:text-white px-8 py-4 rounded-2xl text-lg font-semibold transition-colors">
-                    Our Signature Treatment
+                <a href="#services"
+                   class="link-btn flex items-center justify-center gap-3 border-2 border-[#2C5F2D] text-[#2C5F2D] hover:bg-[#2C5F2D] hover:text-white px-8 py-4 rounded-2xl text-lg font-semibold transition-colors">
+                    View Treatments &amp; Prices
                 </a>
+            </div>
+
+            <div class="mt-8 flex justify-center gap-6 text-sm text-[#6B766B]">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Interlaken, Switzerland</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-clock"></i>
+                    <span>By appointment</span>
+                </div>
             </div>
         </div>
     </div>
@@ -78,7 +100,7 @@
                 At Zetaku, we combine traditional Thai massage techniques with specialized wooden therapy tools to help release deep muscular tension and support overall wellbeing.
             </p>
             <p class="mt-6 text-lg text-[#4A554A]">
-                Our work is designed for professionals who carry tension from long hours at a desk, as well as those experiencing mental and physical fatigue. We focus on delivering effective pressure while maintaining comfort and care.
+                Our work is designed for professionals who carry tension from long hours at a desk, active travellers recovering from the Alps, as well as those experiencing mental and physical fatigue. We focus on delivering effective pressure while maintaining comfort and care.
             </p>
         </div>
     </div>
@@ -120,30 +142,126 @@
         </div>
     </div>
 
-    <!-- Services -->
-    <div class="max-w-6xl mx-auto px-6 pb-16">
-        <div class="text-center mb-10">
-            <h2 class="text-4xl heading-serif font-semibold">Our Treatments</h2>
+    <!-- Services & Prices -->
+    <div id="services" class="max-w-6xl mx-auto px-6 pb-20">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl heading-serif font-semibold">Our Treatments &amp; Prices</h2>
+            <p class="mt-3 text-[#6B766B]">All prices in Swiss Francs (CHF) &bull; Tap a treatment to book instantly on WhatsApp</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="zen-card service-card rounded-3xl p-8 border border-[#E5E0D5]">
-                <h3 class="font-semibold text-2xl mb-2">Deep Tissue Release</h3>
-                <p class="text-sm text-[#6B766B] mb-3">Using Mai Prap Marn wooden tools</p>
-                <p class="text-[#4A554A]">Effective for releasing deep muscular tension and stubborn knots.</p>
+        <div class="grid md:grid-cols-2 gap-6">
+
+            <!-- Service 1 -->
+            <div class="zen-card service-card rounded-3xl p-8 border border-[#E5E0D5] flex flex-col">
+                <h3 class="font-semibold text-2xl mb-2">Zetaku Alpine Deep Tissue &amp; Wood Therapy</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Deep Tissue</span>
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Wood Therapy</span>
+                </div>
+                <p class="text-[#4A554A] mb-6">Deep tissue massage combined with the signature "Zetaku Wood Therapy" to break down fascia and relieve extreme muscle tension from climbing the Alps.</p>
+                <div class="grid grid-cols-4 gap-2 text-center mb-6">
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">30 min</div><div class="font-semibold text-[#2C5F2D]">85</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">60 min</div><div class="font-semibold text-[#2C5F2D]">150</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">90 min</div><div class="font-semibold text-[#2C5F2D]">220</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">120 min</div><div class="font-semibold text-[#2C5F2D]">280</div></div>
+                </div>
+                <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20book%20Zetaku%20Alpine%20Deep%20Tissue%20%26%20Wood%20Therapy"
+                   class="mt-auto inline-flex items-center gap-2 text-[#2C5F2D] font-medium hover:text-[#1F4A22]">
+                    <i class="fab fa-whatsapp"></i> Book this session <i class="fas fa-arrow-right ml-1"></i>
+                </a>
             </div>
 
-            <div class="zen-card service-card rounded-3xl p-8 border border-[#E5E0D5]">
-                <h3 class="font-semibold text-2xl mb-2">Posture &amp; Tension Reset</h3>
-                <p class="text-sm text-[#6B766B] mb-3">For professionals and desk workers</p>
-                <p class="text-[#4A554A]">Helps relieve neck, shoulder and back tension from prolonged sitting.</p>
+            <!-- Service 2 -->
+            <div class="zen-card service-card rounded-3xl p-8 border border-[#E5E0D5] flex flex-col">
+                <h3 class="font-semibold text-2xl mb-2">Zetaku Signature Thai &amp; Hot Stone Fusion</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Thai Massage</span>
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Hot Stone Therapy</span>
+                </div>
+                <p class="text-[#4A554A] mb-6">A blend of traditional Thai stretching and the warmth of volcanic hot stones to relieve the cold after skiing.</p>
+                <div class="grid grid-cols-4 gap-2 text-center mb-6">
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">30 min</div><div class="font-semibold text-[#2C5F2D]">75</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">60 min</div><div class="font-semibold text-[#2C5F2D]">140</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">90 min</div><div class="font-semibold text-[#2C5F2D]">200</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">120 min</div><div class="font-semibold text-[#2C5F2D]">260</div></div>
+                </div>
+                <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20book%20Zetaku%20Signature%20Thai%20%26%20Hot%20Stone%20Fusion"
+                   class="mt-auto inline-flex items-center gap-2 text-[#2C5F2D] font-medium hover:text-[#1F4A22]">
+                    <i class="fab fa-whatsapp"></i> Book this session <i class="fas fa-arrow-right ml-1"></i>
+                </a>
             </div>
 
-            <div class="zen-card service-card rounded-3xl p-8 border border-[#E5E0D5]">
-                <h3 class="font-semibold text-2xl mb-2">Stress &amp; Nervous System Reset</h3>
-                <p class="text-sm text-[#6B766B] mb-3">Restorative focus</p>
-                <p class="text-[#4A554A]">A gentler yet effective session designed to ease mental fatigue and support deep relaxation.</p>
+            <!-- Service 3 -->
+            <div class="zen-card service-card rounded-3xl p-8 border border-[#E5E0D5] flex flex-col">
+                <h3 class="font-semibold text-2xl mb-2">Zetaku Sports Recovery &amp; Foot Reflexology</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Sports Massage</span>
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Reflexology</span>
+                </div>
+                <p class="text-[#4A554A] mb-6">A special program for adventure athletes focusing on recovering leg, foot, neck, and back muscles, relieving accumulated fatigue from walking and cycling.</p>
+                <div class="grid grid-cols-3 gap-2 text-center mb-6">
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">30 min</div><div class="font-semibold text-[#2C5F2D]">75</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">60 min</div><div class="font-semibold text-[#2C5F2D]">135</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">90 min</div><div class="font-semibold text-[#2C5F2D]">195</div></div>
+                </div>
+                <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20book%20Zetaku%20Sports%20Recovery%20%26%20Foot%20Reflexology"
+                   class="mt-auto inline-flex items-center gap-2 text-[#2C5F2D] font-medium hover:text-[#1F4A22]">
+                    <i class="fab fa-whatsapp"></i> Book this session <i class="fas fa-arrow-right ml-1"></i>
+                </a>
             </div>
+
+            <!-- Service 4 -->
+            <div class="zen-card service-card rounded-3xl p-8 border border-[#E5E0D5] flex flex-col">
+                <h3 class="font-semibold text-2xl mb-2">Zetaku Deep Tissue &amp; Alpine Aromatherapy</h3>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Deep Tissue</span>
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Aromatherapy</span>
+                </div>
+                <p class="text-[#4A554A] mb-6">Deep tissue massage combined with Alpine herbal essential oils, offering an experience that deeply untangles muscle knots alongside ultimate relaxation.</p>
+                <div class="grid grid-cols-4 gap-2 text-center mb-6">
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">30 min</div><div class="font-semibold text-[#2C5F2D]">85</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">60 min</div><div class="font-semibold text-[#2C5F2D]">145</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">90 min</div><div class="font-semibold text-[#2C5F2D]">210</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">120 min</div><div class="font-semibold text-[#2C5F2D]">270</div></div>
+                </div>
+                <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20book%20Zetaku%20Deep%20Tissue%20%26%20Alpine%20Aromatherapy"
+                   class="mt-auto inline-flex items-center gap-2 text-[#2C5F2D] font-medium hover:text-[#1F4A22]">
+                    <i class="fab fa-whatsapp"></i> Book this session <i class="fas fa-arrow-right ml-1"></i>
+                </a>
+            </div>
+
+            <!-- Service 5 (full width) -->
+            <div class="zen-card service-card rounded-3xl p-8 border border-[#E5E0D5] flex flex-col md:col-span-2">
+                <div class="flex items-center gap-3 mb-2">
+                    <i class="fas fa-heart text-[#2C5F2D]"></i>
+                    <h3 class="font-semibold text-2xl">Zetaku Ultimate Couples Wellness Experience</h3>
+                </div>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Customized</span>
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Wood Therapy</span>
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Hot Stone</span>
+                    <span class="text-xs font-medium bg-[#F5F0E6] text-[#2C5F2D] px-3 py-1 rounded-full">Thai Massage</span>
+                </div>
+                <p class="text-[#4A554A] mb-6 max-w-3xl">A premium spa experience for couples, combining wooden massage techniques and hot stones customized to individual needs, in a private romantic atmosphere.</p>
+                <div class="grid grid-cols-3 gap-3 text-center mb-6 max-w-md">
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">60 min</div><div class="font-semibold text-[#2C5F2D]">290</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">90 min</div><div class="font-semibold text-[#2C5F2D]">410</div></div>
+                    <div class="bg-[#F5F0E6] rounded-xl py-2"><div class="text-xs text-[#6B766B]">120 min</div><div class="font-semibold text-[#2C5F2D]">530</div></div>
+                </div>
+                <p class="text-xs text-[#6B766B] mb-6">Prices shown are for 2 persons.</p>
+                <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20book%20Zetaku%20Ultimate%20Couples%20Wellness%20Experience"
+                   class="mt-auto inline-flex items-center gap-2 text-[#2C5F2D] font-medium hover:text-[#1F4A22]">
+                    <i class="fab fa-whatsapp"></i> Book this session <i class="fas fa-arrow-right ml-1"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="text-center mt-8">
+            <p class="text-sm text-[#6B766B]">All sessions include consultation &bull; Custom packages available</p>
+            <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20ask%20about%20a%20custom%20treatment%20plan"
+               class="mt-4 inline-block text-[#2C5F2D] font-medium underline decoration-[#C5A46E] decoration-2 underline-offset-4 hover:text-[#1F4A22]">
+                Message me for custom treatment plans &rarr;
+            </a>
         </div>
     </div>
 
@@ -175,24 +293,27 @@
     <div class="max-w-5xl mx-auto px-6 pb-16">
         <div class="text-center mb-10">
             <h2 class="text-4xl heading-serif font-semibold">What Our Clients Say</h2>
+            <p class="mt-3 text-[#6B766B]">See more reviews &amp; testimonials on our Instagram
+                <a href="https://www.instagram.com/joemassasje" target="_blank" rel="noopener" class="text-[#E1306C] font-medium hover:text-[#C13584]">@joemassasje</a>
+            </p>
         </div>
 
         <div class="grid md:grid-cols-2 gap-6">
-            
+
             <!-- Testimonial 1 -->
             <div class="bg-white p-6 rounded-3xl border border-[#E5E0D5]">
                 <div class="flex justify-between items-start mb-4">
                     <div>
-                        <p class="font-semibold">Liv Kristine Espenæs</p>
-                        <div class="text-yellow-500">★★★★★</div>
+                        <p class="font-semibold">Liv Kristine Espen&aelig;s</p>
+                        <div class="text-yellow-500">&starf;&starf;&starf;&starf;&starf;</div>
                     </div>
-                    <a href="https://www.instagram.com/" target="_blank" 
+                    <a href="https://www.instagram.com/joemassasje" target="_blank" rel="noopener"
                        class="text-[#E1306C] hover:text-[#C13584]">
                         <i class="fab fa-instagram text-xl"></i>
                     </a>
                 </div>
                 <p class="text-[#4A554A] text-sm leading-relaxed">
-                    “Joe is incredibly professional... I felt completely pain-free in my neck and back.”
+                    "Joe is incredibly professional... I felt completely pain-free in my neck and back."
                 </p>
             </div>
 
@@ -200,16 +321,16 @@
             <div class="bg-white p-6 rounded-3xl border border-[#E5E0D5]">
                 <div class="flex justify-between items-start mb-4">
                     <div>
-                        <p class="font-semibold">Christina Låmar</p>
-                        <div class="text-yellow-500">★★★★★</div>
+                        <p class="font-semibold">Christina L&aring;mar</p>
+                        <div class="text-yellow-500">&starf;&starf;&starf;&starf;&starf;</div>
                     </div>
-                    <a href="https://www.instagram.com/" target="_blank" 
+                    <a href="https://www.instagram.com/joemassasje" target="_blank" rel="noopener"
                        class="text-[#E1306C] hover:text-[#C13584]">
                         <i class="fab fa-instagram text-xl"></i>
                     </a>
                 </div>
                 <p class="text-[#4A554A] text-sm leading-relaxed">
-                    “Professional masseur with a very good understanding of anatomy. I am always equally satisfied.”
+                    "Professional masseur with a very good understanding of anatomy. I am always equally satisfied."
                 </p>
             </div>
 
@@ -221,12 +342,13 @@
         <div class="bg-white rounded-3xl p-10 border border-[#E5E0D5]">
             <h2 class="text-3xl heading-serif font-semibold mb-4">Ready to Experience Zetaku?</h2>
             <p class="text-lg text-[#4A554A] mb-8">Whether you are looking for deep muscular release or restorative relaxation, we are here to support you.</p>
-            
-            <a href="https://your-wix-booking-link.com" 
-               class="inline-flex items-center justify-center bg-[#2C5F2D] hover:bg-[#1F4A22] text-white px-12 py-4 rounded-2xl text-xl font-semibold shadow-xl">
-                Book Your Session
+
+            <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20book%20a%20session"
+               class="link-btn inline-flex items-center justify-center gap-3 bg-[#2C5F2D] hover:bg-[#1F4A22] text-white px-12 py-4 rounded-2xl text-xl font-semibold shadow-xl">
+                <i class="fab fa-whatsapp text-2xl"></i>
+                <span>Book via WhatsApp</span>
             </a>
-            <p class="mt-4 text-sm text-[#6B766B]">Online booking available through Thai London Therapy Interlaken</p>
+            <p class="mt-4 text-sm text-[#6B766B]">Instant booking &bull; +41 76 774 20 27</p>
         </div>
     </div>
 
@@ -235,22 +357,24 @@
         <div class="bg-white rounded-3xl p-8 md:p-10 border border-[#E5E0D5]">
             <h3 class="text-center text-2xl font-semibold mb-8 heading-serif">Connect with Us</h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <a href="https://wa.me/4793953432" class="flex items-center gap-4 p-5 rounded-2xl border border-[#E5E0D5] hover:border-[#2C5F2D]">
+                <a href="https://wa.me/41767742027?text=Hi%20Master%20JS%2C%20I%27d%20like%20to%20book%20a%20session"
+                   class="link-btn flex items-center gap-4 p-5 rounded-2xl border border-[#E5E0D5] hover:border-[#2C5F2D]">
                     <div class="w-12 h-12 bg-[#25D366] text-white rounded-2xl flex items-center justify-center text-3xl">
                         <i class="fab fa-whatsapp"></i>
                     </div>
                     <div>
                         <div class="font-semibold">WhatsApp</div>
-                        <div class="text-sm text-[#6B766B]">+47 939 53 432</div>
+                        <div class="text-sm text-[#6B766B]">+41 76 774 20 27 &bull; Book directly</div>
                     </div>
                 </a>
-                <a href="#" class="flex items-center gap-4 p-5 rounded-2xl border border-[#E5E0D5] hover:border-[#2C5F2D]">
+                <a href="https://www.instagram.com/joemassasje" target="_blank" rel="noopener"
+                   class="link-btn flex items-center gap-4 p-5 rounded-2xl border border-[#E5E0D5] hover:border-[#2C5F2D]">
                     <div class="w-12 h-12 bg-gradient-to-br from-[#E1306C] to-[#C13584] text-white rounded-2xl flex items-center justify-center text-3xl">
                         <i class="fab fa-instagram"></i>
                     </div>
                     <div>
                         <div class="font-semibold">Instagram</div>
-                        <div class="text-sm text-[#6B766B]">@joemassage</div>
+                        <div class="text-sm text-[#6B766B]">@joemassasje &bull; Reviews &amp; testimonials</div>
                     </div>
                 </a>
             </div>
@@ -259,10 +383,23 @@
 
     <footer class="border-t border-[#E5E0D5] py-8">
         <div class="max-w-4xl mx-auto px-6 text-center text-sm text-[#6B766B]">
-            <p>Zetaku Advanced Thai Therapeutic Massage • Interlaken, Switzerland</p>
+            <p>Zetaku Advanced Thai Therapeutic Massage &bull; Interlaken, Switzerland</p>
             <p class="mt-1">By appointment only</p>
         </div>
     </footer>
+
+    <script>
+        // Smooth scroll for on-page anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
 
 </body>
 </html>
